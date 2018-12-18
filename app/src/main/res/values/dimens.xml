@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="progreeview_height">40dp</dimen>
+    <dimen name="progreeview_width">40dp</dimen>
+
+    <dimen name="primaryText">12sp</dimen>
+    <dimen name="SecText">10sp</dimen>
+
+    <dimen name="paddingText">5dp</dimen>
+    <dimen name="totalPriceText">14sp</dimen>
+    <dimen name="margin4">4dp</dimen>
+    <dimen name="margin8">8dp</dimen>
+    <dimen name="margin10">10dp</dimen>
+    <dimen name="margin2">2dp</dimen>
+
+
+
+
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

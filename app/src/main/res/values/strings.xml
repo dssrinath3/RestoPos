@@ -1,0 +1,342 @@
+<resources>
+    <string name="app_name">RESTOPOS</string>
+    <string name="remember_me">Remember Me</string>
+
+    <string name="customer_name">Customer</string>
+
+    <string name="intertnet_status">No Internet Connection. </string>
+    <string name="select_compnay_error">Select atleast one type of company </string>
+
+    <string name="validation_msg_email">Email id does not match. </string>
+    <string name="validation_msg_password">Password does not match.</string>
+    <string name="err_msg">Field not be empty</string>
+    <string name="err_msg_email">Enter Valid Email Address</string>
+    <string name="err_msg_password">Enter password</string>
+    <string name="err_msg_username">Enter user name</string>
+    <string name="err_msg_companyemail">Enter company email</string>
+    <string name="err_msg_company_name">Enter company name</string>
+    <string name="err_msg_number">Enter Valid Phone Number</string>
+
+    <!-- bluetooth-->
+    <string name="pos_printer_config_title">Printer Configuration</string>
+    <string name="pos_3inch">3-inch</string>
+    <string name="pos_2inch">2-inch</string>
+    <string name="scanning">Searching...</string>
+    <string name="bluettoth_doesnt">Your device does not support bluetooth.</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="no_printer_connected">No printer is connected</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Search for devices</string>
+    <string name="connect_bluetooth_device_btn">Connect a Bluetooth Printer</string>
+    <string name="all_jobs_cancelled">All jobs cancelled</string>
+    <string name="cancelled_job">Cancelled job %d</string>
+    <string name="no_jobs_to_cancel">No jobs to cancel</string>
+    <string name="err_msg_baseurl">Enter base url</string>
+    <string name="error_rsonsecode204">No Response Body</string>
+    <string name="response200_sessionLost">Session Lost</string>
+    <string name="response_error">Unable to connect server. Try again sometime later.</string>
+    <string name="accesstoken_error">Please log in again.</string>
+
+
+    <string name="err_validate_name">Field not be empty!.</string>
+
+    <string name="productandtax">Product and Tax</string>
+    <string name="settings">Settings</string>
+    <string name="syncdata">Sync Data</string>
+    <string name="customer">Customer</string>
+    <string name="reports">Reports</string>
+    <string name="ingredienats">Ingredienats</string>
+    <string name="Total">Total</string>
+    <string name="Orderlist">Orderlist</string>
+    <string name="Productsist">Products</string>
+    <string name="Button25">Clear</string>
+    <string name="Button26">Print</string>
+    <string name="Button27">Pay</string>
+    <string name="Rs">₹</string>
+    <string name="Plus">+</string>
+    <string name="Multi">*</string>
+
+    <string name="kot_printer_error_msg">Connect your printer for KOT receipt.</string>
+    <string name="cash_pay_printer_error_msg">Would you like to print receipt?</string>
+
+    <string name="print_line">"----------------------------------------------"</string>
+    <string name="print_line2inch">"--------------------------------"</string>
+    <string name="printtype_3">3-inch</string>
+    <string name="printtype_2">2-inch</string>
+
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_font_family_body_1_material">sans-serif</string>
+    <string name="abc_font_family_body_2_material">sans-serif-medium</string>
+    <string name="abc_font_family_button_material">sans-serif-medium</string>
+    <string name="abc_font_family_caption_material">sans-serif</string>
+    <string name="abc_font_family_display_1_material">sans-serif</string>
+    <string name="abc_font_family_display_2_material">sans-serif</string>
+    <string name="abc_font_family_display_3_material">sans-serif</string>
+    <string name="abc_font_family_display_4_material">sans-serif-light</string>
+    <string name="abc_font_family_headline_material">sans-serif</string>
+    <string name="abc_font_family_menu_material">sans-serif</string>
+    <string name="abc_font_family_subhead_material">sans-serif</string>
+    <string name="abc_font_family_title_material">sans-serif-medium</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="action_billsettings_pref">Bill settings</string>
+    <string name="action_cancellation">Refunds report</string>
+    <string name="action_cancellation1">Returns/Refunds</string>
+    <string name="action_credit">Credit</string>
+    <string name="action_customerwise">Customer list</string>
+    <string name="action_discountwise">Discount list</string>
+    <string name="action_email">Send report</string>
+    <string name="action_export">Save as excel</string>
+    <string name="action_general">Sales report</string>
+    <string name="action_general_pref">General</string>
+    <string name="action_help">Help video</string>
+    <string name="action_itemwise">Product report</string>
+    <string name="action_logout">Log off</string>
+    <string name="action_network">Network/Wifi printer</string>
+    <string name="action_network_pref">Network</string>
+    <string name="action_promotions">Promotions</string>
+    <string name="action_reset">Smart Refill</string>
+    <string name="action_schedule">Schedule Backup</string>
+    <string name="action_smartinventory_pref">Smart Inventory</string>
+    <string name="action_speeddial_pref">Speed dial</string>
+    <string name="action_usbbt">Bluetooth printer</string>
+    <string name="action_userwise">Seller report</string>
+    <item name="ampm_circle_radius_multiplier" type="string">0.19</item>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="barcode_printing">Barcode printing</string>
+    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="cafe_latte">Cafe latte</string>
+    <string name="cafe_mocha">Cafe mocha</string>
+    <string name="cancel">Cancel</string>
+    <string name="cappuchino">Cappuchino</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="chocolate_shake">Chocolate shake</string>
+    <string name="choose_cancellation">Choose Cancellation</string>
+    <string name="choose_cancellation1">Choose Cancellation</string>
+    <string name="choose_cancellation2">Choose Cancellation</string>
+    <string name="choose_cancellation3">Choose Cancellation</string>
+    <string name="choose_cancelwise_filter">Choose Cancelwise Perform</string>
+    <string name="choose_category">Choose Category</string>
+    <string name="choose_discount">Choose Discount</string>
+    <string name="choose_email">Choose Email</string>
+    <string name="choose_itemwiseperform">Choose Itemwise Perform</string>
+    <string name="choose_itemwmodifier">Choose ItemModifier Perform</string>
+    <string name="choose_menuwise">Choose Menuwise</string>
+    <string name="choose_orderlist">Choose Orderlist</string>
+    <string name="choose_tax">Choose Tax</string>
+    <string name="choose_unit">Choose Unit</string>
+    <item name="circle_radius_multiplier" type="string">0.82</item>
+    <item name="circle_radius_multiplier_24HourMode" type="string">0.85</item>
+    <string name="coke">Coke 300ml</string>
+    <string name="cold_coffee">Cold coffee</string>
+    <string name="common_google_play_services_enable_button">Enable</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="content_desc_free_vs_premium_indicator">Free or Premium Image Indicator</string>
+    <string name="content_desc_gas_gauge_indicator">Gas gauge indicator</string>
+    <string name="content_description_app_loading_image">App loading image</string>
+    <string name="content_description_title_image">"80's Video Game Style Car Logo"</string>
+    <string name="copyrights">Copyright © 2016 Intuition. All Rights Reserved. version 5.9</string>
+    <string name="csv_download">Download CSV(Data)</string>
+    <string name="csv_upload">Upload CSV(Data)</string>
+    <string name="day_of_week_label_typeface">sans-serif-light</string>
+    <string name="day_picker_description">Month grid of days</string>
+    <string name="deleted_key">%1$s deleted</string>
+    <string name="done_label">Done</string>
+    <string name="dosa">Dosa</string>
+    <string name="enter">Enter</string>
+    <string name="espresso">Espresso</string>
+    <string name="filter_coffee">Filter coffee</string>
+    <string name="grape_juice">Grape juice</string>
+    <string name="green_tea">Green tea</string>
+    <string name="handlingmsg_err_autocutter">"Please remove jammed paper and close roll paper cover.
+Remove any jammed paper or foreign substances in the printer, and then turn the printer off and turn the printer on again.
+"</string>
+    <string name="handlingmsg_err_battery">"Battery of printer is hot.
+"</string>
+    <string name="handlingmsg_err_battery_real_end">"Please connect AC adapter or change the battery.
+Battery of printer is almost empty.
+"</string>
+    <string name="handlingmsg_err_cover_open">"Please close roll paper cover.
+"</string>
+    <string name="handlingmsg_err_head">"Print head of printer is hot.
+"</string>
+    <string name="handlingmsg_err_motor">"Motor Driver IC of printer is hot.
+"</string>
+    <string name="handlingmsg_err_need_recover">"Then, If the printer doesn't recover from error, please cycle the power switch.
+"</string>
+    <string name="handlingmsg_err_no_response">"Please check the connection of the printer and the mobile terminal.
+Connection get lost.
+"</string>
+    <string name="handlingmsg_err_offline">"Printer is offline.
+"</string>
+    <string name="handlingmsg_err_overheat">"Please wait until error LED of the printer turns off.
+"</string>
+    <string name="handlingmsg_err_paper_feed">"Please release a paper feed switch.
+"</string>
+    <string name="handlingmsg_err_receipt_end">"Please check roll paper.
+"</string>
+    <string name="handlingmsg_err_unrecover">"Please cycle the power switch of the printer.
+If same errors occurred even power cycled, the printer may out of order."</string>
+    <string name="handlingmsg_err_wrong_paper">"Please set correct roll paper.
+"</string>
+    <string name="handlingmsg_warn_battery_near_end">"Battery level of printer is low.
+"</string>
+    <string name="handlingmsg_warn_receipt_near_end">"Roll paper is nearly end.
+"</string>
+    <string name="hot_chocolate">Hot chocolate</string>
+    <string name="hour_picker_description">Hours circular slider</string>
+    <string name="iced_tea">Iced tea</string>
+    <string name="idly">Idly</string>
+    <string name="insert">₹</string>
+    <string name="inventory_indent">Inventory Indent</string>
+    <string name="item_is_selected">%1$s selected</string>
+    <string name="item_printing">Print items</string>
+    <string name="lang_ank">ANK</string>
+    <string name="mango_juice">Mango juice</string>
+    <string name="masala_dosa">Masala dosa</string>
+    <item name="mdtp_ampm_circle_radius_multiplier" type="string">0.22</item>
+    <string name="mdtp_cancel">@android:string/cancel</string>
+    <item name="mdtp_circle_radius_multiplier" type="string">0.82</item>
+    <item name="mdtp_circle_radius_multiplier_24HourMode" type="string">0.85</item>
+    <string name="mdtp_day_of_week_label_typeface">sans-serif-light</string>
+    <string name="mdtp_day_picker_description">Month grid of days</string>
+    <string name="mdtp_deleted_key">%1$s deleted</string>
+    <string name="mdtp_done_label">Done</string>
+    <string name="mdtp_hour_picker_description">Hours circular slider</string>
+    <string name="mdtp_item_is_selected">%1$s selected</string>
+    <string name="mdtp_minute_picker_description">Minutes circular slider</string>
+    <item name="mdtp_numbers_radius_multiplier_inner" type="string">0.6</item>
+    <item name="mdtp_numbers_radius_multiplier_normal" type="string">0.81</item>
+    <item name="mdtp_numbers_radius_multiplier_outer" type="string">0.83</item>
+    <string name="mdtp_ok">@android:string/ok</string>
+    <string name="mdtp_radial_numbers_typeface">sans-serif</string>
+    <string name="mdtp_sans_serif">sans-serif</string>
+    <string name="mdtp_second_picker_description">Seconds circular slider</string>
+    <string name="mdtp_select_day">Select month and day</string>
+    <string name="mdtp_select_hours">Select hours</string>
+    <string name="mdtp_select_minutes">Select minutes</string>
+    <string name="mdtp_select_seconds">Select seconds</string>
+    <string name="mdtp_select_year">Select year</string>
+    <item name="mdtp_selection_radius_multiplier" type="string">0.16</item>
+    <item name="mdtp_text_size_multiplier_inner" type="string">0.11</item>
+    <item name="mdtp_text_size_multiplier_normal" type="string">0.12</item>
+    <item name="mdtp_text_size_multiplier_outer" type="string">0.08</item>
+    <string name="mdtp_time_placeholder">--</string>
+    <string name="mdtp_time_separator">:</string>
+    <string name="mdtp_year_picker_description">Year list</string>
+    <string name="minute_picker_description">Minutes circular slider</string>
+    <string name="mixed_fruitpunch">Mixed fruitpunch</string>
+    <string name="modifier_printing">Modifier list</string>
+    <string name="my_url">www.intuitionsoftwares.com?prova&amp;reg=bis</string>
+    <item name="numbers_radius_multiplier_inner" type="string">0.6</item>
+    <item name="numbers_radius_multiplier_normal" type="string">0.81</item>
+    <item name="numbers_radius_multiplier_outer" type="string">0.83</item>
+    <string name="orange_punch">Orange punch</string>
+    <string name="password_toggle_content_description">Toggle password visibility</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="pref_default_display_name">John Smith</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact based on your message history</string>
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="printerseries_t82">TM-T82 Series</string>
+    <string name="qest_mark">\?</string>
+    <string name="radial_numbers_typeface">sans-serif</string>
+    <string name="rationale_ask_again">This app may not work correctly without the requested permissions. Open the app settings screen to modify app permissions.</string>
+    <string name="sans_serif">sans-serif</string>
+    <string name="search">Search</string>
+    <string name="search_menu_title">Search</string>
+    <string name="select_day">Select month and day</string>
+    <string name="select_hours">Select hours</string>
+    <string name="select_minutes">Select minutes</string>
+    <string name="select_year">Select year</string>
+    <item name="selection_radius_multiplier" type="string">0.16</item>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="strawberry_punch">Strawberry punch</string>
+    <string name="subscription_period_monthly">7Days Free Trial</string>
+    <string name="subscription_period_monthly1">500 Messages(Rs.180)</string>
+    <string name="subscription_period_monthly11">Upgrade To Pro(Rs.4999)</string>
+    <string name="subscription_period_monthly_dashboard">One Month Rs.1500</string>
+    <string name="subscription_period_ninemonth1">10000 Messages(Rs.3000)</string>
+    <string name="subscription_period_prompt">Select your subscription period</string>
+    <string name="subscription_period_sixmonth">Six Month $6.99</string>
+    <string name="subscription_period_sixmonth1">5000 Messages(Rs.1650)</string>
+    <string name="subscription_period_sixmonth_dashboard">Six Month Rs.7200</string>
+    <string name="subscription_period_threemonth">Three Month $4.99</string>
+    <string name="subscription_period_threemonth1">2500 Messages(Rs.825)</string>
+    <string name="subscription_period_threemonth_dashboard">Three Month Rs.4200</string>
+    <string name="subscription_period_weekly_dashboard">7Days Free Trial</string>
+    <string name="subscription_period_yearly">Yearly Subscription(Rs.5200)</string>
+    <string name="subscription_period_yearly1">1000 Messages(Rs.360)</string>
+    <string name="subscription_period_yearly_dashboard">Yearly Subscription(Rs.14400)</string>
+    <string name="subscription_prompt_cancel">Cancel</string>
+    <string name="subscription_prompt_continue">Continue</string>
+    <string name="subscription_resignup_prompt">To reactivate your subscription, select your subscription period</string>
+    <string name="subscription_update_prompt">To change your subscription, select your new subscription period</string>
+    <string name="tea">Tea</string>
+    <item name="text_size_multiplier_inner" type="string">0.14</item>
+    <item name="text_size_multiplier_normal" type="string">0.17</item>
+    <item name="text_size_multiplier_outer" type="string">0.11</item>
+    <string name="time_placeholder">--</string>
+    <string name="time_separator">:</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_err_code">Error Code</string>
+    <string name="title_err_method">Method</string>
+    <string name="title_msg_description">Description</string>
+    <string name="title_msg_result">Result</string>
+    <string name="title_settings_dialog">Permissions Required</string>
+    <string name="underline"><u>Overview</u></string>
+    <string name="update">Update</string>
+    <string name="update_emp">Update Category</string>
+    <string name="vanilla_shake">Vanilla shake</string>
+    <string name="year_picker_description">Year list</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

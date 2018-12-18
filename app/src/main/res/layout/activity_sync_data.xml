@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/LightBlack"
+    tools:context=".customer.activity.Activity_Customer">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimaryDark" />
+        </android.support.design.widget.AppBarLayout>
+        <LinearLayout
+            android:layout_below="@+id/app_bar_layout"
+            android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:background="#ffe6e6e6" android:paddingLeft="5.0dip" android:paddingTop="5dp" android:paddingRight="5dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@+id/greenglow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_backup_green_circle_72dp" android:layout_centerInParent="true" />
+                    <ImageView android:id="@+id/circle" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_backup_green_48dp" android:layout_centerInParent="true" />
+                    <ImageView android:id="@+id/tick" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_backup_success_green_48dp" android:layout_centerInParent="true" />
+                    <ImageView android:id="@+id/error" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_backup_failure_green_48dp" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_below="@id/greenglow" android:layout_centerHorizontal="true">
+                    <CheckBox android:textSize="15sp" android:visibility="gone" android:gravity="center|right" android:id="@+id/app_settingsdata" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="true" android:text="App data and Settings" />
+                    <CheckBox android:textSize="15sp" android:visibility="gone" android:textColor="#ff000000" android:gravity="center|left" android:id="@+id/salesdata" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="true" android:text="Sales data" />
+                    <Button android:textStyle="bold" android:background="@color/colorAccent" android:id="@+id/btnSyncData" android:padding="10dp" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Sync now" android:drawablePadding="10dp" android:textColor="@color/colorWhite" android:layout_centerHorizontal="true" />
+                </LinearLayout>
+            </RelativeLayout>
+
+    </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

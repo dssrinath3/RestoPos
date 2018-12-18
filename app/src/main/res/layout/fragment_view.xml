@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                   >
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/recyclerviewCategory"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                        </android.support.v7.widget.RecyclerView>
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center"
+                    android:background="@color/ampm_text_color"
+                    >
+                        <android.support.design.widget.TabLayout
+                            android:id="@+id/tabTables"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:tabTextColor="@color/colorBlack"
+                            app:tabIndicatorHeight="0dp"
+                            app:tabBackground="@drawable/tab_color_selector_for_tables"
+                            app:tabMode="scrollable"/>
+
+                        <android.support.v4.view.ViewPager
+                            android:visibility="invisible"
+                            android:id="@+id/viewpagerTable"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/MediumBlack"
+                            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+                </RelativeLayout>
+        </RelativeLayout>
+
+</FrameLayout>

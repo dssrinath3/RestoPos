@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rectangle_black">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Total"
+        android:textSize="@dimen/totalPriceText"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:padding="@dimen/paddingText"/>
+    <TextView
+        android:drawableLeft="@drawable/rectangle_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Total"
+        android:textSize="@dimen/totalPriceText"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:padding="@dimen/paddingText"/>
+</RelativeLayout>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ffe6e6e6" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/billtotal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="52dp" android:layout_weight="1.0">
+            <ImageView android:id="@+id/closetext" android:background="@drawable/light_black_click" android:padding="14dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_back_black_24dp" />
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="₹" />
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/finaltotal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="\ 122334566678" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:id="@+id/billnumber" android:visibility="gone" android:layout_width="match_parent" android:layout_height="52dp" android:layout_weight="1.0">
+            <TextView android:textStyle="bold" android:textColor="#ff666666" android:id="@+id/billnumber1" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="20151523-00011" />
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@+id/split_bill" android:background="@drawable/dark_black_click" android:paddingLeft="10dp" android:paddingRight="15dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Split" android:drawableLeft="@drawable/ic_call_split_white_24dp" android:drawablePadding="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView android:background="#ffe6e6e6" android:layout_width="match_parent" android:layout_height="wrap_content" android:isScrollContainer="false">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_marginRight="0dp">
+                ///////cash sales
+                <LinearLayout android:orientation="horizontal" android:id="@+id/cashpayment" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:background="#ff7f7f7f" android:paddingLeft="0dp" android:paddingTop="0dp" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <LinearLayout android:orientation="horizontal" android:background="@drawable/white_click" android:layout_width="wrap_content" android:layout_height="match_parent">
+                        <LinearLayout android:orientation="vertical" android:paddingLeft="10dp" android:paddingRight="5dp" android:paddingBottom="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent">
+                            <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="#ff000000" android:paddingTop="3dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Customer details" />
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ff7f7f7f" android:padding="1dp" android:layout_width="150dp" android:layout_height="wrap_content">
+                                <TextView android:textSize="15sp" android:textColor="#ff000000" android:id="@+id/phoneno" android:background="#ffe6e6e6" android:paddingLeft="5dp" android:paddingTop="9dp" android:paddingRight="5dp" android:paddingBottom="9dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Phone No." android:layout_weight="1.0" android:layout_centerVertical="true" />
+                                <TextView android:textSize="15sp" android:textColor="#ff000000" android:id="@+id/userid" android:background="#ffe6e6e6" android:paddingLeft="5dp" android:paddingTop="9dp" android:paddingRight="5dp" android:paddingBottom="9dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Phone No." android:layout_weight="1.0" android:layout_centerVertical="true" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center_vertical" android:background="#ff7f7f7f" android:padding="1dp" android:layout_width="150dp" android:layout_height="wrap_content" android:layout_marginTop="2dp">
+                                <TextView android:textSize="15sp" android:textColor="#ff000000" android:id="@id/name" android:background="#ffe6e6e6" android:paddingLeft="5dp" android:paddingTop="9dp" android:paddingRight="5dp" android:paddingBottom="9dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Name" android:layout_centerVertical="true" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center_vertical" android:background="#ff7f7f7f" android:padding="1dp" android:layout_width="150dp" android:layout_height="wrap_content" android:layout_marginTop="2dp">
+                                <TextView android:textSize="15sp" android:textColor="#ff000000" android:id="@+id/emailid" android:background="#ffe6e6e6" android:paddingLeft="5dp" android:paddingTop="8dp" android:paddingRight="5dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Email" android:layout_centerVertical="true" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center_vertical" android:background="#ff7f7f7f" android:padding="1dp" android:layout_width="150dp" android:layout_height="wrap_content" android:layout_marginTop="2dp">
+                                <TextView android:textSize="15sp" android:textColor="#ff000000" android:id="@id/address" android:background="#ffe6e6e6" android:paddingLeft="5dp" android:paddingTop="8dp" android:paddingRight="5dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Address" android:lines="3" android:layout_centerVertical="true" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@+id/detail_customer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" style="@android:style/Widget.DeviceDefault.Light.Button">
+                            <TextView android:paddingLeft="12dp" android:id="@+id/customer_name" android:paddingTop="12dp" android:paddingRight="12dp" android:paddingBottom="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_customer_black_24dp" android:text="Customer" android:drawableTop="@drawable/ic_customer_black_24dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:background="#ff7f7f7f" android:paddingLeft="0dp" android:paddingTop="0dp" android:paddingRight="0dp" android:paddingBottom="1dp" android:layout_width="match_parent" android:layout_height="match_parent"
+                    >
+                    <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:paddingLeft="0dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center_vertical" android:padding="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cash Payment" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="10dp">
+                            <TextView android:textSize="15sp" android:textStyle="bold" android:gravity="center_vertical" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Amount" />
+                            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/amount_currency" android:paddingLeft="5dp" android:paddingTop="5dp" android:paddingRight="5dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="₹" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dp"
+                            android:orientation="vertical">
+                            <RelativeLayout android:gravity="left" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp">
+
+                                <EditText android:textSize="18sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/edTenderedAmount" android:background="@drawable/light_black_click_shape_rounded_corners" android:paddingLeft="5dp" android:paddingTop="10dp" android:paddingRight="5dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_margin="2dp" android:hint="Enter amount" android:selectAllOnFocus="true" android:digits="\ 0123456789" android:layout_toLeftOf="@id/tenderAmount"  android:layout_centerVertical="true" android:inputType="number" android:imeOptions="actionDone" android:elevation="2dp" />
+                                <Button android:textStyle="bold" android:id="@+id/tenderAmount" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Exact" android:layout_alignParentRight="true" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="left" android:layout_marginLeft="5dp" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="24dp" android:layout_marginTop="4dp">
+                            <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="#ffda4336" android:id="@+id/duetext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Due :" />
+                            <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="#ffda4336" android:id="@+id/rupeesym" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₹ " />
+                            <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="#ffda4336" android:id="@+id/dueamount" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:weightSum="2">
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1">
+                                    <Button android:textSize="18sp" android:onClick="onButtonClicked" android:textStyle="bold" android:id="@+id/button1" android:layout_width="match_parent" android:layout_height="66.5dp" android:layout_marginLeft="0dp" android:layout_marginRight="1dp" android:text="1" android:layout_weight="1.0" />
+                                    <Button android:textSize="18sp" android:onClick="onButtonClicked" android:textStyle="bold" android:id="@+id/button2" android:layout_width="match_parent" android:layout_height="66.5dp" android:layout_marginLeft="1dp" android:layout_marginRight="1dp" android:text="2" android:layout_weight="1.0" />
+                                    <Button android:textSize="18sp" android:onClick="onButtonClicked" android:textStyle="bold" android:id="@+id/button5" android:layout_width="match_parent" android:layout_height="66.5dp" android:layout_marginLeft="1dp" android:layout_marginRight="1dp" android:text="5" android:layout_weight="1.0" />
+
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1">
+                                    <Button android:textSize="18sp" android:onClick="onButtonClicked" android:textStyle="bold" android:id="@+id/button10" android:layout_width="match_parent" android:layout_height="66.5dp" android:layout_marginLeft="1dp" android:layout_marginRight="1dp" android:text="10" android:layout_weight="1.0" />
+                                    <Button android:textSize="18sp" android:onClick="onButtonClicked" android:textStyle="bold" android:id="@+id/button20" android:layout_width="match_parent" android:layout_height="66.5dp" android:layout_marginLeft="1dp" android:layout_marginRight="1dp" android:text="20" android:layout_weight="1.0" />
+                                    <Button android:textSize="18sp" android:onClick="onButtonClicked" android:textStyle="bold" android:id="@+id/button50" android:layout_width="match_parent" android:layout_height="66.5dp" android:layout_marginLeft="1dp" android:layout_marginRight="0dp" android:text="50" android:layout_weight="1.0" />
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+                       </LinearLayout>
+                        <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginBottom="0dp" android:weightSum="6.0">
+                            <LinearLayout
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:weightSum="2">
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1">
+                                    <Button android:textSize="18sp" android:onClick="onButtonClicked" android:textStyle="bold" android:id="@+id/button100" android:layout_width="0dp" android:layout_height="66.5dp" android:layout_marginLeft="0dp" android:layout_marginRight="1dp" android:text="100" android:layout_weight="1.0" />
+                                    <Button android:textSize="18sp" android:onClick="onButtonClicked" android:textStyle="bold" android:id="@+id/button500" android:layout_width="0dp" android:layout_height="66.5dp" android:layout_marginLeft="1dp" android:layout_marginRight="1dp" android:text="500" android:layout_weight="1.0" />
+                                    <Button android:textSize="18sp" android:onClick="onButtonClicked" android:textStyle="bold" android:id="@+id/button2000" android:layout_width="0dp" android:layout_height="66.5dp" android:layout_marginLeft="1dp" android:layout_marginRight="1dp" android:text="2000" android:layout_weight="1.0" />
+
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:weightSum="2"
+                                    android:orientation="horizontal">
+                                    <ImageButton android:id="@+id/buttonbksp" android:layout_width="0dp" android:layout_height="66.5dp" android:layout_marginLeft="1dp" android:layout_marginRight="1dp" android:src="@drawable/ic_backspace_black_24dp" android:text="Clear" android:layout_weight="1.0" />
+                                    <Button android:textSize="18sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/buttonPaymentDone" android:background="@drawable/red_click" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="66.5dp" android:layout_marginLeft="1dp" android:layout_marginRight="0dp" android:text="Done" android:drawableLeft="@drawable/ic_done_white_24dp" android:layout_weight="1.0" android:textAllCaps="false" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+                       </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+                ///////card sales
+                <LinearLayout android:orientation="horizontal" android:id="@+id/cardpayment" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="5dp">
+                <LinearLayout android:orientation="horizontal" android:background="#ff7f7f7f" android:paddingLeft="0dp" android:paddingTop="0dp" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="match_parent">
+                        <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:paddingLeft="10dp" android:paddingRight="5dp" android:paddingBottom="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent">
+                            <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="#ff000000" android:background="#ffffffff" android:paddingTop="3dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Customer details" />
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ff7f7f7f" android:padding="1dp" android:layout_width="150dp" android:layout_height="wrap_content">
+                                <TextView android:textSize="15sp" android:textColor="#ff000000" android:id="@+id/cardphoneno" android:background="#ffe6e6e6" android:paddingLeft="5dp" android:paddingTop="9dp" android:paddingRight="5dp" android:paddingBottom="9dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Phone No." android:layout_weight="1.0" android:layout_centerVertical="true" />
+                                <TextView android:textSize="15sp" android:textColor="#ff000000" android:id="@+id/carduserid" android:background="#ffe6e6e6" android:paddingLeft="5dp" android:paddingTop="9dp" android:paddingRight="5dp" android:paddingBottom="9dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Phone No." android:layout_weight="1.0" android:layout_centerVertical="true" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center_vertical" android:background="#ff7f7f7f" android:padding="1.0dip" android:layout_width="150dp" android:layout_height="wrap_content" android:layout_marginTop="2dp">
+                                <TextView android:textSize="15sp" android:textColor="#ff000000" android:id="@+id/cardname" android:background="#ffe6e6e6" android:paddingLeft="5dp" android:paddingTop="9dp" android:paddingRight="5dp" android:paddingBottom="9dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Name" android:layout_centerVertical="true" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center_vertical" android:background="#ff7f7f7f" android:padding="1.0dip" android:layout_width="150dp" android:layout_height="wrap_content" android:layout_marginTop="2dp">
+                                <TextView android:textSize="15sp" android:textColor="#ff000000" android:id="@+id/cardemailid" android:background="#ffe6e6e6" android:paddingLeft="5dp" android:paddingTop="8.5dp" android:paddingRight="5dp" android:paddingBottom="8.5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Email" android:layout_centerVertical="true" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center_vertical" android:background="#ff7f7f7f" android:padding="1.0dip" android:layout_width="150dp" android:layout_height="wrap_content" android:layout_marginTop="2dp">
+                                <TextView android:textSize="15sp" android:textColor="#ff000000" android:id="@+id/cardaddress" android:background="#ffe6e6e6" android:paddingLeft="5dp" android:paddingTop="8.5dp" android:paddingRight="5dp" android:paddingBottom="8.5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Address" android:lines="3" android:layout_centerVertical="true" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:id="@+id/carddetailcust" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" style="@android:style/Widget.DeviceDefault.Light.Button">
+                            <TextView android:padding="12dp" android:id="@+id/customer_name_card" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Customer" android:drawableTop="@drawable/ic_customer_black_24dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:background="#ff7f7f7f" android:paddingLeft="0dp" android:paddingTop="0dp" android:paddingRight="0dp" android:paddingBottom="1dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:paddingLeft="0dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="10dp" android:layout_marginLeft="5dp">
+                            <TextView android:textSize="15sp" android:textStyle="bold" android:gravity="center_vertical" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Amount Tendered" />
+                            <LinearLayout android:gravity="center_vertical" android:background="#ffffffff" android:padding="1dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="5dp">
+                                <TextView android:textSize="18sp" android:textStyle="bold" android:gravity="center_vertical" android:background="#ffffffff" android:paddingLeft="5.0dip" android:paddingTop="5dp" android:paddingRight="5dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="₹" />
+                                <TextView android:textSize="18sp" android:textStyle="bold" android:id="@+id/cardpay" android:background="#ffffffff" android:paddingTop="10.0dip" android:paddingRight="5dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginLeft="5dp">
+                                <EditText android:textSize="18sp" android:textColor="#ff000000" android:id="@+id/cardnumber" android:background="@drawable/light_black_click_shape_rounded_corners" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="2dp" android:hint="Enter Card no." android:maxLength="16" android:layout_centerVertical="true" android:inputType="number" android:imeOptions="actionDone" android:elevation="2dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent"
+                            >
+                            <Button android:textSize="18sp" android:layout_margin="5dp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/buttonCardPayment" android:background="@drawable/red_click" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="65.5dp" android:layout_marginLeft="5dp" android:text="Done" android:drawableLeft="@drawable/ic_done_white_24dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:textAllCaps="false" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/payandtotal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_marginRight="0dp">
+                <LinearLayout android:orientation="vertical" android:background="#ff7f7f7f" android:paddingLeft="0dp" android:paddingTop="0dp" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="match_parent" >
+                    <RadioGroup android:gravity="center" android:orientation="vertical" android:id="@+id/radiocashcard" android:background="#ffffffff" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <RadioButton android:textSize="18sp" android:onClick="onRadioButtonClicked" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/btncash" android:padding="0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="  Cash" android:layout_weight="1.0" />
+                        <RadioButton android:textSize="18sp" android:onClick="onRadioButtonClicked" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/btncard" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="  Card" android:layout_weight="1.0" />
+                    </RadioGroup>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:background="#ff7f7f7f" android:paddingLeft="0dp" android:paddingTop="0dp" android:paddingRight="0dp" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" >
+                    <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="5dp" android:paddingTop="5dp" android:paddingRight="5dp" android:paddingBottom="5dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:textSize="15sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:text="Sub-total" />
+                            <LinearLayout android:gravity="center_vertical" android:background="#ffffffff" android:padding="1dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="0dp">
+                                <TextView android:textSize="15sp" android:textStyle="bold" android:gravity="center" android:background="#ffffffff" android:paddingLeft="4dp" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₹" />
+                                <TextView android:textSize="15sp" android:textStyle="bold" android:id="@+id/subtotalprice" android:background="#ffffffff" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="99dp" android:text="1999.0" android:layout_centerVertical="true" />
+                                <TextView android:id="@+id/dialog_rounded" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-0.0" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:textSize="15sp" android:textStyle="bold" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:text="Tax" />
+                            <LinearLayout android:background="#ffffffff" android:padding="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0dp">
+                                <TextView android:textSize="15sp" android:textStyle="bold" android:gravity="center" android:background="#ffffffff" android:paddingLeft="4dp" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₹" />
+                                <TextView android:textSize="15sp" android:textStyle="bold" android:id="@+id/taxru" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="99dp" android:text="999.0" android:layout_centerVertical="true" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:textSize="15sp" android:textStyle="bold" android:gravity="center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:text="Total" />
+                            <LinearLayout android:background="#ffffffff" android:padding="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0dp">
+                                <TextView android:textSize="15sp" android:textStyle="bold" android:gravity="center" android:background="#ffffffff" android:paddingLeft="4dp" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₹" />
+                                <TextView android:textSize="15sp" android:textStyle="bold" android:id="@+id/totalprice" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="99dp" android:text="10999.0" android:layout_centerVertical="true" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <FrameLayout android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center_vertical" android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/discountpane" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginTop="4dp" android:layout_marginRight="4dp" android:layout_marginBottom="4dp" style="@android:style/Widget.DeviceDefault.Light.Button">
+                            <TextView android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Discount" android:drawableTop="@drawable/ic_local_offer_black_24dp" />
+                            <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                    <FrameLayout android:paddingLeft="0.5dp" android:paddingTop="0.5dp" android:paddingRight="0dp" android:paddingBottom="0.5dp" android:layout_width="100dp" android:layout_height="wrap_content">
+                                        <TextView android:textSize="15sp" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@+id/discountpercent" android:paddingLeft="5dp" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="Enter Value" android:inputType="numberDecimal" />
+                                    </FrameLayout>
+                                    <LinearLayout android:padding="0.5dp" android:layout_width="45dp" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_marginRight="0dp">
+                                        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                            <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center" android:id="@+id/rspercent1" android:paddingTop="8dp" android:paddingBottom="8dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="fill_parent" android:text="%" android:maxLines="1" />
+                                            <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center"  android:id="@+id/rspercent" android:paddingTop="8dp" android:paddingBottom="8dp" android:clickable="false" android:layout_width="match_parent" android:layout_height="fill_parent" android:maxLines="1" android:singleLine="true" android:prompt="@string/choose_discount" style="@android:style/Widget.TextView" />
+                                        </RelativeLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+                                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                                    <FrameLayout android:padding="0.5dp" android:layout_width="145dp" android:layout_height="wrap_content" android:layout_marginRight="0dp">
+                                        <TextView android:textSize="15sp" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@+id/discountcode" android:paddingLeft="5dp" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="Enter code" android:singleLine="true" android:layout_centerVertical="true" />
+                                    </FrameLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <TextView android:textStyle="bold" android:textColor="#ff00a99d" android:id="@+id/distext" android:padding="10.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableTop="@drawable/ic_success_green_32dp" />
+                            <ImageButton android:textSize="18sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/tickdis" android:background="@drawable/light_black_click_shape_rounded_corners" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:visibility="gone" android:layout_width="72.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5dp" android:src="@drawable/ic_done_black_24dp" android:text="Apply" android:textAllCaps="false" />
+                        </LinearLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="#ff7f7f7f" android:paddingLeft="0dp" android:paddingTop="0dp" android:paddingRight="0dp" android:paddingBottom="1dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_marginTop="0dp" android:layout_marginRight="0dp">
+                <RadioGroup android:gravity="center" android:orientation="vertical" android:id="@+id/radioprinter" android:background="#ffffffff" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <RadioButton android:textSize="18sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/btnDinein" android:onClick="onRadioButtonClicked" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="  Dine-in" android:layout_weight="1.0" />
+                    <RadioButton android:textSize="18sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/btnTakeaway" android:onClick="onRadioButtonClicked" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="  Takeaway" android:layout_weight="1.0" />
+                    <RadioButton android:textSize="18sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@+id/btnHomedelivery" android:onClick="onRadioButtonClicked" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="  Home delivery" android:layout_weight="1.0" />
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:id="@+id/billamount" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:id="@+id/include" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:id="@+id/f_view" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/img_view" />
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:id="@+id/f_viewnew" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/img_view_new" />
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/img_viewsplit" />
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/split_bill_name" />
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/split_bill_empty" />
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/imageview" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageViewPicture" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </ScrollView>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

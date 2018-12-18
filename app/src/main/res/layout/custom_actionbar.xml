@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar android:gravity="center_vertical" android:id="@+id/actionBar" android:background="#ff00a99d" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:layout_alignParentTop="true" app:contentInsetLeft="0.0dip" app:contentInsetStart="0.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/linearLayout" android:background="?android:actionBarItemBackground" android:clickable="true" android:layout_width="56.0dip" android:layout_height="fill_parent">
+            <ImageView android:orientation="horizontal" android:paddingLeft="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_menu_black_24dp" />
+        </LinearLayout>
+        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="IVEPOS" style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>
